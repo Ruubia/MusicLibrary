@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context="com.example.bea.musiclibrary.MainActivity">
+
+    <TextView
+        android:id="@+id/music"
+        style="@style/CategoryStyle"
+        android:background="@color/category_music"
+        android:text="@string/category_music" />
+
+    <TextView
+        android:id="@+id/video"
+        style="@style/CategoryStyle"
+        android:background="@color/category_video"
+        android:text="@string/category_video" />
+
+    <TextView
+        android:id="@+id/setting"
+        style="@style/CategoryStyle"
+        android:background="@color/category_setting"
+        android:text="@string/category_setting" />
+
+    <TextView
+        android:id="@+id/podcasts"
+        style="@style/CategoryStyle"
+        android:background="@color/category_podcasts"
+        android:text="@string/category_podcasts" />
+</LinearLayout>
